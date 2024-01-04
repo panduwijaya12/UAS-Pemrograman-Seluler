@@ -137,10 +137,7 @@ class PortfolioPage extends StatelessWidget {
           IconButton(
             icon: Icon(icon),
             color: Colors.blue,
-            onPressed: () {
-              // Tambahkan aksi yang sesuai dengan tombol kontak
-              // Contohnya bisa membuka link di browser
-            },
+            onPressed: () {},
           ),
           SizedBox(height: 5.0),
           Text(
@@ -157,7 +154,6 @@ class PortfolioPage extends StatelessWidget {
       '5',
       '5',
       '4',
-      // Tambahkan keterampilan lain sesuai kebutuhan
     ];
 
     return Card(
